@@ -24,4 +24,33 @@
 .about__text {
     font-size: 2rem;
     text-align: center;
+    padding: 0 34rem;
+}
+
+.principal__informacoes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3.5rem;
+    margin-top: 9.6rem;
+}
+
+.informacoes__container {
+    padding: 0 2rem;
+}
+
+.informacoes__marker {
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--color-secundaria);
+}
+
+.informacoes__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-title);
+    margin: 1.2rem 0 0.8rem 0;
+}
+
+.informacoes__text {
+    font-size: 1.6rem;
 }
