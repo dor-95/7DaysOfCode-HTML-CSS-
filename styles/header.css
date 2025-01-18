@@ -1,0 +1,50 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.8rem 0;
+}
+
+.cabecalho__nav {
+    display: flex;
+    align-items: center;
+    gap: 11.9rem;
+}
+
+.nav__icon-image {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.nav__icon-texto {
+    font-size: 1.8rem;
+}
+
+.nav__links {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;   
+}
+
+.nav__link > a,
+.link__entrar,
+.link__cadastrar {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.login__links {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.link__cadastrar {
+    background-color: var(--color-secundaria);
+    color: #FFFFFF;
+    padding: 1rem 1.8rem;
+    border-radius: 0.8rem;
+}
