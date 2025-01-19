@@ -1,5 +1,7 @@
 .principal {
-    padding: 9.6rem 11.2rem;
+    padding: 9.6rem 0;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .principal__about {
@@ -24,7 +26,7 @@
 .about__text {
     font-size: 2rem;
     text-align: center;
-    padding: 0 34rem;
+    padding: 0 25rem;
 }
 
 .principal__informacoes {
@@ -115,7 +117,6 @@
     font-size: 1.8rem;
     color: var(--color-title);
     font-weight: 500;
-    
 }
 
 .vaga__item-container {
@@ -127,4 +128,38 @@
 .vaga__descricao {
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+.principal__depoimentos {
+    background: rgba(142, 36, 36, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 6.4rem;
+    margin-top: 9.6rem;
+}
+
+.depoimentos__marker {
+    color: var(--color-secundaria);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.depoimentos__text {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: var(--color-title);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.depoimentos__usuario {
+    font-size: 1.6rem;
+    color: var(--color-title);
+    font-weight: 500;
+}
+
+.depoimentos__funcao {
+    font-size: 1.4rem;
 }
